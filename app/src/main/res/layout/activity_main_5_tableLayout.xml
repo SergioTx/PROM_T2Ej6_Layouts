@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="LOGIN"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Usuario"/>
+        <EditText
+            android:id="@+id/inputUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@id/textContrasenia"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Contraseña"/>
+        <EditText
+            android:id="@+id/inputContrasenia"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="textPassword"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_column="1"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON"/>
+    </TableRow>
+</TableLayout>

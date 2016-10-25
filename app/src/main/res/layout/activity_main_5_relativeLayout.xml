@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textContrasenia"
+        android:text="LOGIN"/>
+
+    <TextView
+        android:id="@+id/textUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/textLogin"
+        android:text="Usuario"/>
+
+    <TextView
+        android:id="@id/textContrasenia"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/textUsuario"
+        android:text="Contrasenia"/>
+
+    <EditText
+        android:id="@+id/inputUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/textLogin"
+        android:layout_alignBaseline="@id/textUsuario"
+        android:layout_toRightOf="@id/textContrasenia"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/inputContrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/inputContrasenia"
+        android:layout_alignBaseline="@id/textContrasenia"
+        android:layout_toRightOf="@id/textContrasenia"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputContrasenia"
+        android:layout_toRightOf="@id/textContrasenia"
+        android:text="BUTTON"/>
+</RelativeLayout>
